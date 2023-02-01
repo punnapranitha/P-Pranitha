@@ -1,0 +1,56 @@
+<html>
+<head>
+
+</head>
+<body>
+ 
+  <!-- steps section starts -->
+  <section class="steps">
+  <div class="box">
+    <img src="assets/step1.jpg" height="200" alt="">
+    <h3>Choose your favorite food</h3>
+
+  </div>
+  <div class="box">
+    <img src="assets/step2.jpg" height="200" alt="">
+    <h3>free and fast delivery</h3>
+
+  </div>
+  <div class="box">
+    <img src="assets/step3.jpg"  height="200" alt="">
+    <h3>easy payment method</h3>
+
+  </div>
+  <div class="box">
+    <img src="assets/step4.jpg" height="200" alt="">
+    <h3>and finally,enjoy your food</h3>
+
+  </div>
+  </section>
+<!--- steps section ends -->
+
+<!-- order section starts -->
+<section class="order" id="order">
+  <h1 class="heading"><span>Order </span>now</h1>
+  <div class="row">
+    <div class="image">
+      <img src="assets/imgq.jpg"  width="300" alt="">
+      
+    </div>
+    <form #insert="ngForm" (ngSubmit)="insertData(insert)">  
+      <div class="inputBox"> 
+        <input type="text" name="name" id="name" ngModel="name" placeholder="name" required="">
+        <input type="email" name="email" id="email" ngModel="email" placeholder="email" required="">
+      </div>
+      <div class="inputBox">
+        <input type="number" name="number" id="number" ngModel="number" placeholder="number" required="">
+        <input type="text" name="foodname" id="foodname" ngModel="foodname" placeholder="food name" required="">
+      </div>
+      <textarea  name="address" id="address" ngModel="address" placeholder="address"  cols="30" rows="10" required=""></textarea>
+      <input  type="Submit" value="order now" class="btn">
+      
+    </form>
+  </div>
+</section>
+
+<!-- order section ends -->

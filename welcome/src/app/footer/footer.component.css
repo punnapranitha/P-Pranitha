@@ -1,0 +1,28 @@
+.footer{
+    background: #000;
+    text-align: center;
+    height: 50%;
+    /* top: 10rem; right: 0; */
+    
+    
+}
+.footer .share{
+    font-size: 1.5rem;
+     display: flex; 
+    gap: 1.5rem;
+    justify-content: center;
+     flex-wrap: wrap; 
+    padding: 2rem 1rem;
+    color: #fff;
+    font-weight: normal;
+   
+}
+.footer .credit{
+    padding: 2rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.footer .credit span{
+    color: red;
+}
